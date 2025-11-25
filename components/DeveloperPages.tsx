@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Button } from './Button';
 
@@ -291,7 +292,7 @@ contract SimpleToken is ERC20 {
               <ol className="list-decimal list-inside text-gray-400 space-y-2 ml-2">
                  <li>Proposal Created (Snapshot/On-chain).</li>
                  <li>Debate + Voting Period.</li>
-                 <li>Approval -> <strong>Timelock</strong> (48-72h).</li>
+                 <li>Approval &rarr; <strong>Timelock</strong> (48-72h).</li>
                  <li>Execution via Multisig/DAO.</li>
               </ol>
             </section>
